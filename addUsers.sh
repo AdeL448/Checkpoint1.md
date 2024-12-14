@@ -7,7 +7,7 @@ fi
 
 for utilisateur in "$@"; do
    
-    if [ -d "$utilisateur"]; then
+    if [ "$utilisateur" &>/dev/null ]; then
         echo "le nom d'utilisateur "$utlisateur" existe déjà"
         continue
     fi
