@@ -1,7 +1,7 @@
 # REPONSES EXERCICE 3 QUIZZ #
 
 1. Pour lister les utilisateurs d'un système Linux :  
-    cut -d: -f1 /etc/passwd
+   cat /etc/passwd
 
 2. Pour changer les droits du fichier myfile en rwxr—r-- :  
     chmod 744 myfile
@@ -37,6 +37,6 @@
 
 9. Le payload est la partie de la trame *qui contient les données utiles envoyées par une application ou un protocole.*  
 
-10. Pourquoi les classes IP sont remplacées par le CIDR ?
+10. Pourquoi les classes IP sont remplacées par le CIDR ?  
     Le CIDR *(Classless Inter-Domain Routing)* a remplacé les classes IP car il permet *une gestion plus précises* des adresses IP.  
     Il permet également d’affecter des blocs d’adresses de tailles adaptées aux besoins.
